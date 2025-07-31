@@ -4,11 +4,14 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+      day: "tuesday"
+      time: "08:00"
+      timezone: "Europe/London"
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
   - package-ecosystem: bundler
     directory: "/ruby"
     schedule:
