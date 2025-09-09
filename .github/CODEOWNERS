@@ -1,2 +1,6 @@
 # Configure everything to be reviewed by one user
 *       @AtomicGwen
+
+# Exclude .txt files and files in /ruby
+*.txt
+/ruby
